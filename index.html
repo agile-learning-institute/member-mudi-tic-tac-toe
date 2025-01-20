@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mudi's Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+      <section class="settings">
+        <div>
+          <label for="player1">Player 1 Name:</label>
+          <input type="text" id="player1" placeholder="Enter name" />
+        </div>
+        <div>
+          <label for="player2">Player 2 Name:</label>
+          <input type="text" id="player2" placeholder="Enter name" />
+        </div>
+        <button id="start-btn">Start Game</button>
+      </section>
+      <section class="gameboard" id="gameboard">
+        <!-- Here is the section where my game board stays -->
+      </section>
+      <div class="result" id="result"></div>
+      <button id="restart-btn" class="hidden">Restart Game</button>
+    </main>
+    <footer>
+      <p>&copy; 2025 The Odin Project</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
